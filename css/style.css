@@ -1,0 +1,80 @@
+body {
+    margin: 5em !important; 
+    color: white !important;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    /* For Old browsers */
+     background-color: #202020;
+
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to top, #243B55, #141E30);
+
+    /* Background Image */
+    background-image: url(../images/Desktop-1.png);
+    
+    background-size: cover;
+
+}
+
+  #paragraphs {
+    font-size: 1.27rem;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+
+  }
+
+  .paragraph-about-and-portfolio {
+    font-size: 1.27rem;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+  }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ui.segment {
+    opacity: 0;
+    animation: fadeInSegment ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    background-color: #202020;;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    background-image: none;
+}
+
+@keyframes fadeInSegment {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#welcome-h1 {
+    font-size: 4em;
+}
+
+#welcome-header {
+    margin-top: 3em;
+}
