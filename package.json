@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "express-handlebars": "^7.0.7",
-    "jquery": "^3.6.4"
-  }
-}

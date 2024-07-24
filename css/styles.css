@@ -1,0 +1,137 @@
+body {
+    background-color: black !important;
+
+}
+
+.ui.large.secondary.inverted.menu {
+    font-size: 1.5rem; 
+}
+
+.ui.huge.primary.button {
+    font-size: 1.5rem;
+    border-radius: 24px;
+    background-image: -moz-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
+}
+
+.ui.huge.header.s1 {
+    font-size: 5em;
+}
+
+.ui.huge.header.s2 {
+    font-size: 3em;
+    text-align: left;
+}
+
+#center {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.ui.text.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ui.segment {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#quote {
+    font-size: 1.2em;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about.text {
+    text-align: left;
+}
+
+.ui.huge.primary.animate__animated.animate__fadeInUp {
+    background: linear-gradient(to right bottom, #4776E6, #8E54E9);
+}
+
+.ui.inverted.center.aligned.segment.top {
+    background-image: url('../images/segment1-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ui.inverted.center.aligned.segment.testimonials {
+    background-image: url('../images/segment-3-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .ui.segment.center.aligned.about.about {
+    background-image: url('../images/ireland.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+
+.ui.inverted.center.aligned.segment.contact.page {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/segment-3-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ui.email.container {
+    margin-top: 200px; 
+    margin-bottom: 100px;
+}
+
+.bars {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .desktop, .tablet {
+        display: none !important;
+    }
+    .bars {
+        display: block !important;
+        margin-right: 0px !important;
+    }
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.tt {
+    margin-top: 50px;
+}
+
+#dropdownMenu {
+    display: none;
+    /* Additional styling for the dropdown */
+}

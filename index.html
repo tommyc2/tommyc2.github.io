@@ -1,101 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!-- SEO -->
-  <meta name="description" content="Specializing in logo design and software engineering.">
-  <meta name="keywords" content="logo Design, software engineering, portfolio, tommy condon, logo designer,graphic designer">
-  <meta name="author" content="Tommy Condon">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Condon</title>
+    <link rel="stylesheet" href="semantic/semantic.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
-  <div class="ui grid container">
+ 
+    <!-- Main segment -->
 
+<div class="ui inverted center aligned segment top">
+    <div class="ui container">
+        <div class="ui large secondary inverted menu animate__animated animate__fadeIn">
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="Logo" class="image">
+            </div>
 
-    <div class="ui stackable thirteen wide column">
-      <div class="ui inverted secondary compact menu centered stackable" id="topMenu">
-        <a class="active item" href="index.html">HOME</a>
-        <a class="item" href="aboutme.html">ABOUT ME</a>
-        <a class="item" href="portfolio.html">MY WORK</a>
-      </div>
+            <div class="right menu">    
+                <a class="active item desktop tablet only" href="index.html">Home</a>
+                <a class="item desktop tablet only" href="contact.html">Contact</a>
+                <a class="item desktop tablet only" target="_blank" href="https://dribbble.com/plicify">Portfolio</a>
+                <a class="item bars" id="hamburger-icon">
+                    <i class="large bars icon"></i>
+                </a>
+                <div id="dropdownMenu" class="ui inverted horizontal dropdown menu">
+                    <a class="item" href="#home">Home</a>
+                    <a class="item" href="#contact">Contact</a>
+                    <a class="item" href="#portfolio">Portfolio</a>
+                </div>
+                
+            </div>
+        </div>
     </div>
 
-    <div class="ui three wide column">
-      <a href="index.html">
-        <img src="images/logo.png" class="ui image" id="logo height" height="50px" width="50px">
-      </a>
+    <div class="ui text container">
+        <div class="ui inverted huge header s1 animate__animated animate__fadeIn">Large Header Text</div>
+        <h2 class="animate__animated animate__fadeIn">Subtext goes here.</h2>
+        <button class="ui huge primary button hvr-grow animate__animated animate__fadeIn">Click here</button>
+    </div>  
+</div>
+
+<!-- About segment -->
+
+<div class="ui segment center aligned about">
+    <div class="ui text grid stackable container">
+
+        <div class="ui row">
+            <div class="eight wide column">
+                <div class="ui huge header s2 animate__animated animate__fadeIn">About Me</div>
+                    <p id="center" class="animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet est sit amet lacus gravida, sit amet lacinia justo sagittis. Suspendisse potenti. Quisque at nulla vitae eros placerat convallis. Sed non nunc sit amet risus ullamcorper euismod.</p>
+            </div> 
+            <div class="eight wide column">
+                <img src="../images/pfp.jpg" alt="image" class="ui huge image animate__animated animate__fadeIn">
+            </div> 
+        </div>
+       
+    </div>
+</div>
+
+<!-- My Work Segment -->
+<!-- <div class="ui inverted grid stackable segment portfolio">
+        <div class="four wide image column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/juusbox.jpeg" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/arsenal-archives.jpeg" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/webguild.jpeg" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/cnp.jpeg" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/cloud.jpeg" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/notion.png" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/ascend.jpeg" alt="Portfolio-Image">
+        </div>
+        
+        <div class="four wide column">
+            <img class="ui large image hvr-grow" src="../images/portfolio-images/renault.jpeg" alt="Portfolio-Image">
+        </div>
+</div>
+-->
+
+<!-- Testimonials Segment -->
+
+<div class="ui inverted center aligned segment testimonials">
+    <div class="ui text grid stackable container">
+
+            <div class="eight wide column tt">
+                <p id="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet est sit amet lacus gravida, sit amet lacinia justo sagittis. Suspendisse potenti. Quisque at nulla vitae eros placerat convallis. Sed non nunc sit amet risus ullamcorper euismod."</p>
+                <h2><i>- Person </i></h2>
+            </div> 
+
+            <div class="eight wide column tt">
+                <p id="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet est sit amet lacus gravida, sit amet lacinia justo sagittis. Suspendisse potenti. Quisque at nulla vitae eros placerat convallis. Sed non nunc sit amet risus ullamcorper euismod".</p>
+                <h2><i>- Person </i></h2>
+            </div> 
+
+            <div class="eight wide column tt">
+                <p id="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet est sit amet lacus gravida, sit amet lacinia justo sagittis. Suspendisse potenti. Quisque at nulla vitae eros placerat convallis. Sed non nunc sit amet risus ullamcorper euismod."</p>
+                <h2><i>- Person </i></h2>
+            </div> 
+
+            <div class="eight wide column tt">
+                <p id="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet est sit amet lacus gravida, sit amet lacinia justo sagittis. Suspendisse potenti. Quisque at nulla vitae eros placerat convallis. Sed non nunc sit amet risus ullamcorper euismod".</p>
+                <h2><i>- Person </i></h2>
+            </div> 
+       
     </div>
 
-    <div class="ui segment">
-      <div class="ui sixteen wide column" id="welcome-header">
-        <h1 id="welcome-h1">
-          Hi, My name is Tommy!
-        </h1>
-        <p id="paragraphs">
-          Computer Science Student at SETU Waterford
-        </p>
-        <button class="huge ui circular inverted button">
-          Contact Me!
-        </button>
-      </div>
+</div>
 
-      <div class="ui sixteen wide column">
-        <img src="images/tech-stack.svg" class="ui image" id="logo" width="3000px" height="100px">
-      </div>
-
+<div class="ui inverted footer segment center aligned">
+    <div class="ui container">
+        <p>© 2024 Tommy Condon. All rights reserved.</p>
     </div>
+</div>
 
-    <div class="ui sixteen wide mobile only tablet only column">
-      
-      <button class="ui small circular inverted red button">
-        HTML
-      </button>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const dropdownMenu = document.getElementById('dropdownMenu');
 
-      <button class="ui small circular inverted orange button">
-        CSS
-      </button>
-
-      <button class="ui small circular inverted yellow button">
-        JAVASCRIPT
-      </button>
-
-      <button class="ui small circular inverted blue button">
-        SQL
-      </button>
-
-      <button class ="ui small circular inverted teal button">
-        MONGO DB
-      </button>
-
-      <button class ="ui small circular inverted brown button">
-        JAVA
-      </button>
-
-      <button class ="ui small circular inverted yellow button">
-        PYTHON
-      </button>
-
-      <button class ="ui small circular inverted green button">
-        GIT
-      </button>
-
-      <button class ="ui small circular inverted purple button">
-        FIGMA
-      </button>
-
-    </div>
-  
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-  <script src="script.js"></script>
-
-
+    hamburgerIcon.addEventListener('click', function() {
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+    });
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="semantic/semantic.min.js"></script>
 </body>
 </html>
