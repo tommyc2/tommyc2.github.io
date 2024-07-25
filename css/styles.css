@@ -4,7 +4,7 @@ body {
 }
 
 .ui.large.secondary.inverted.menu {
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
 }
 
 .ui.huge.primary.button {
@@ -14,6 +14,7 @@ body {
     background-image: -webkit-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
     background-image: -ms-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
 }
+
 
 .ui.huge.header.s1 {
     font-size: 5em;
@@ -41,6 +42,7 @@ body {
 
 #quote {
     font-size: 1.2em;
+    font-family: serif;
 }
 
 @keyframes fadeIn {
@@ -100,6 +102,22 @@ body {
     display: none !important;
 }
 
+.move-image-side-to-side {
+    animation: moveImages 5s linear infinite;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes moveImages {
+    0% {
+        transform: translateX(40%);
+    }
+    100% {
+        transform: translateX(-40%);
+    }
+}
+
 @media (max-width: 768px) {
     .desktop, .tablet {
         display: none !important;
@@ -107,6 +125,16 @@ body {
     .bars {
         display: block !important;
         margin-right: 0px !important;
+    }
+    .ui.huge.header.s1 {
+        font-size: 3.5em;
+    }
+   /* .ui.inverted.huge.header.tm-header {
+        display: none;
+    }
+    */
+    .move-image-side-to-side {
+        animation: none;
     }
 }
 
@@ -140,20 +168,6 @@ body {
     margin: 0 !important;
 }
 
-/* .pm {
-    animation: moveImage 7s linear infinite;
-}
-
-@keyframes moveImage {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-*/
-
 .centered-container {
     display: flex;
     justify-content: center;
@@ -165,3 +179,10 @@ body {
     margin-bottom: 100px;
 }
 
+.ui.inverted.huge.header.tm-header {
+    font-size: 3rem;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
