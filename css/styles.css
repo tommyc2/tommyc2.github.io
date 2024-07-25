@@ -117,7 +117,7 @@ body {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
+    transition-duration: 1s;
     transition-property: transform;
 }
 
@@ -154,4 +154,14 @@ body {
 }
 */
 
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui.faq.grid.stackable.container.centered-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
