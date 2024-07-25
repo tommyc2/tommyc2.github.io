@@ -74,13 +74,13 @@ body {
     background-repeat: no-repeat;
 }
 
-/* .ui.segment.center.aligned.about.about {
+ .ui.segment.center.aligned.about.about {
     background-image: url('../images/ireland.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-*/
+
 
 .ui.inverted.center.aligned.segment.contact.page {
     width: 100%;
@@ -135,3 +135,23 @@ body {
     display: none;
     /* Additional styling for the dropdown */
 }
+
+.ui.inverted.grid.stackable.segment.portfolio {
+    margin: 0 !important;
+}
+
+/* .pm {
+    animation: moveImage 7s linear infinite;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+*/
+
+
