@@ -10,9 +10,8 @@ body {
 .ui.huge.primary.button {
     font-size: 1.5rem;
     border-radius: 24px;
-    background-image: -moz-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(36,114,252) 0%, rgb(135,17,193) 100%);
+    background-color: #271eb4;
+    box-shadow: 0 8px 50px -4px #271eb4;
 }
 
 
@@ -58,19 +57,17 @@ body {
     text-align: left;
 }
 
-.ui.huge.primary.animate__animated.animate__fadeInUp {
-    background: linear-gradient(to right bottom, #4776E6, #8E54E9);
-}
-
 .ui.inverted.center.aligned.segment.top {
-    background-image: url('../images/segment1-bg.png');
+    background: rgb(4,4,27);
+    background: linear-gradient(0deg, rgba(4,4,27,1) 0%, rgba(22,21,82,1) 100%); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .ui.inverted.center.aligned.segment.testimonials {
-    background-image: url('../images/segment-3-bg.png');
+    background: rgb(4,4,27);
+    background: linear-gradient(180deg, rgba(4,4,27,1) 0%, rgba(22,21,82,1) 100%); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +84,8 @@ body {
 .ui.inverted.center.aligned.segment.contact.page {
     width: 100%;
     height: 100%;
-    background-image: url('../images/segment-3-bg.png');
+    background: rgb(4,4,27);
+    background: linear-gradient(0deg, rgba(4,4,27,1) 0%, rgba(22,21,82,1) 100%); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,12 +164,9 @@ body {
 
 .ui.inverted.grid.stackable.segment.portfolio {
     margin: 0 !important;
-}
-
-.centered-container {
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #04041b !important;
 }
 
 .ui.faq.grid.stackable.container.centered-container {
@@ -186,3 +181,10 @@ body {
 html {
     scroll-behavior: smooth !important;
 }
+
+/* button = #271eb4
+bg = #04041b
+inner text = #dfe4f1
+outer text = #ffffff
+optional=171657
+*/
